@@ -1,0 +1,5 @@
+outs:
+- md5: b487c918e06769f5b7c7e25de7b3def5
+  size: 8344700
+  hash: md5
+  path: pizza_sales.csv
