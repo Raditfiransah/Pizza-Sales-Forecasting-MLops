@@ -1,0 +1,17 @@
+# ── API serving (core) ──
+fastapi==0.129.0
+uvicorn==0.40.0
+pydantic==2.12.5
+
+# ── ML & Data ──
+pandas==2.3.3
+numpy==2.2.6
+scikit-learn==1.7.2
+xgboost==3.2.0
+joblib==1.5.3
+holidays==0.90
+
+# ── Training (optional, not needed for serving) ──
+matplotlib==3.10.8
+seaborn==0.13.2
+mlflow==3.9.0

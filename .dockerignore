@@ -1,0 +1,42 @@
+# Git
+.git
+.gitignore
+
+# Agent / IDE
+.agents
+.vscode
+.idea
+
+# MLflow & Plots (not needed in container)
+mlruns/
+plots/
+
+# CatBoost leftovers
+catboost_info/
+
+# DVC
+.dvc
+.dvcignore
+
+# Python cache
+__pycache__
+*.py[cod]
+*.egg-info
+
+# Notebooks
+notebook/
+
+# Raw data (only keep train & monitoring)
+data/pizza_sales.csv
+data/pizza_sales_daily.csv
+data/pizza_sales_daily_core.csv
+data/split_info.txt
+
+# Unnecessary source files for serving
+src/data_prep.py
+src/train_model.py
+src/train_monitoring_split.py
+
+# Docs
+*.md
+LICENSE

@@ -1,0 +1,36 @@
+# Agents
+.agents
+
+# MLflow
+mlruns/
+
+# Models & Plots (generated artifacts)
+models/
+plots/
+
+# CatBoost
+catboost_info/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
